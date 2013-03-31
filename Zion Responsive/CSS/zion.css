@@ -38,7 +38,6 @@ html,body {
 	}
 .navbar .title {
 	font-size:1.5em;
-	font-weight:bold;
 	text-transform:uppercase;
 	}
 .navbar.minimal	.title{
@@ -57,26 +56,26 @@ html,body {
 	min-width:50px;
 	line-height:40px;
 	padding:0px 5px;
+	font-size:14px
 	}
 .navbar ul li{
 	float:left;
 	}
-	
+.navbar ul li a, .navbar.minimal ul li a{
+	text-decoration:none;
+	}	
 .navbar ul li a{
 	color:#CCC;
-	text-shadow:1px 1px 1px #333333;
-	text-decoration:none;
-	font-weight:500;
+	text-shadow:2px 2px 3px #333333;
 	}
 .navbar.minimal ul li a{
 	color:#333;
-	text-shadow:1px 1px 1px #CCCCCC;
-	text-decoration:none;
+	text-shadow:2px 2px 3px #CCCCCC;
 	}
 	
 .navbar ul li a:hover{
 	color:#FFF;
-	text-shadow:1px 1px 1px #333333;}
+	text-shadow:2px 2px 3px #333333;}
 .navbar.minimal ul li a:hover{
 	color:#FFF;
-	text-shadow:1px 1px 1px #333333;}
+	text-shadow:2px 2px 3px #333333;}
