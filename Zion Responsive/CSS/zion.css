@@ -12,9 +12,43 @@ html,body {
 	width:100%;
 	height:100%;
 	}
-
+h1,h2,h3,h4,h5,h6 {
+	color:#484848;
+	text-shadow:2px 2px 2px #CCC;
+	}
+h1,h2,h3,h4,h5,h6 {
+	margin-bottom:0.5em;
+	}
+p {
+	color:#666;
+	text-shadow:2px 2px 2px #CCC;
+	margin:0.5em 0px;
+	}
+a	{
+	color:#C30;
+	text-decoration:none;
+	font-style:italic;
+	}
+a:hover {
+	color:#000;}
+img {
+	width:150px;
+	height:auto;
+	border-radius:15px;
+	}
 /************************************GRID*****************************************/
-
+/****************CONTAINER****************/
+.container {
+	width:auto;
+	max-width:978px;
+	margin:20px auto;
+	padding:10px;
+	border-radius:5px;
+	}
+.container {
+	background:#F7F7F7;
+	border:thin #E5E5E5 solid;
+	}
 
 
 /**********************************OBJECTS****************************************/
@@ -35,6 +69,7 @@ html,body {
 	float:left;
 	line-height:40px;
 	padding:0px 40px;
+	cursor:default;
 	}
 .navbar .title {
 	font-size:1.5em;
@@ -54,7 +89,6 @@ html,body {
 	
 .navbar ul li{ 
 	min-width:50px;
-	line-height:40px;
 	padding:0px 5px;
 	font-size:14px
 	}
@@ -62,7 +96,11 @@ html,body {
 	float:left;
 	}
 .navbar ul li a, .navbar.minimal ul li a{
+	font-style:normal;
 	text-decoration:none;
+	display:block;
+	height:40px;
+	line-height:40px;
 	}	
 .navbar ul li a{
 	color:#CCC;
@@ -74,8 +112,10 @@ html,body {
 	}
 	
 .navbar ul li a:hover{
-	color:#FFF;
-	text-shadow:2px 2px 3px #333333;}
+	color:#000;
+	background:#CCC;
+	text-shadow:0px 0px 0px #333333;}
 .navbar.minimal ul li a:hover{
-	color:#FFF;
-	text-shadow:2px 2px 3px #333333;}
+	color:#666;
+	text-shadow:0px 0px 0px #CCCCCC;}
+/****************DROPDOWN****************/
