@@ -18,6 +18,7 @@ h1,h2,h3,h4,h5,h6 {
 	}
 h1,h2,h3,h4,h5,h6 {
 	margin-bottom:0.5em;
+	margin-top:0.5em;
 	}
 p {
 	color:#666;
@@ -36,13 +37,24 @@ img {
 	height:auto;
 	border-radius:15px;
 	}
+footer {
+	min-height:120px;
+	border-top:thin #CCC solid;
+	color:#999;
+	}
+footer .container {
+	border:none;
+	width:auto;
+	background:none;
+	margin:0px auto;
+	}
 /************************************GRID*****************************************/
 /****************CONTAINER****************/
 .container {
 	width:auto;
 	max-width:978px;
 	margin:20px auto;
-	padding:10px;
+	padding:20px;
 	border-radius:5px;
 	}
 .container {
@@ -100,6 +112,7 @@ img {
 	text-decoration:none;
 	display:block;
 	height:40px;
+	padding:0px 15px;
 	line-height:40px;
 	}	
 .navbar ul li a{
@@ -119,3 +132,11 @@ img {
 	color:#666;
 	text-shadow:0px 0px 0px #CCCCCC;}
 /****************DROPDOWN****************/
+.dropdown{
+	}
+/*******************BOX******************/
+.box {
+	border-radius:5px;
+	background:#CCC;
+	padding:20px;
+	}
